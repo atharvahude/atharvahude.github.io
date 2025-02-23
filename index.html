@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atharva Hude - Resume</title>
+  <style>
+    /* Basic reset and typography */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    header, footer {
+      text-align: center;
+      padding: 10px 0;
+    }
+    header {
+      border-bottom: 2px solid #ddd;
+      margin-bottom: 20px;
+    }
+    footer {
+      border-top: 2px solid #ddd;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+    h1, h2, h3 {
+      color: #222;
+      margin-bottom: 5px;
+    }
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    p, li {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .contact-info a {
+      color: #0066cc;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .project, .experience-item {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header with Name and Contact Info -->
+    <header>
+      <h1>Atharva Hude</h1>
+      <p>Arizona, USA</p>
+      <div class="contact-info">
+        <p>
+          Phone: 623-332-8534 | 
+          Email: <a href="mailto:ahude@asu.edu">ahude@asu.edu</a>
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/atharvahude" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/atharvahude" target="_blank">GitHub</a> |
+          <a href="https://scholar.google.com/citations?hl=en&user=C3DM9yEAAAAJ" target="_blank">Google Scholar</a>
+        </p>
+      </div>
+    </header>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>Arizona State University</h3>
+        <p>MS Robotics and Autonomous Systems (Artificial Intelligence)</p>
+        <p><strong>Aug. 2023 – May 2025</strong> | Tempe, AZ | CGPA: 3.89/4</p>
+      </div>
+      <div class="education-item">
+        <h3>Savitribai Phule Pune University</h3>
+        <p>Bachelor of Engineering in Computer</p>
+        <p><strong>Aug. 2017 – May 2021</strong> | Pune, India | CGPA: 9.18/10</p>
+      </div>
+      <div class="education-item">
+        <h3>Udacity Nano Degree</h3>
+        <p>Sensor Fusion</p>
+        <p><strong>May 2024 – Aug. 2024</strong> | Online</p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>ASU (Teuvonet Technologies)</h3>
+        <p><strong>Research Aide | Jan 2024 – Present</strong> | Tempe, AZ</p>
+        <ul>
+          <li>
+            Fused Neuro-Symbolic approaches with Object Detection models to create Explainable AI (XAI) deep learning solutions,
+            enhancing performance and interpretability with a 30% increase in recall for geospatial imagery.
+          </li>
+          <li>Secured Air Force/Space Force STTR Phase 1 contract for the research effort.</li>
+          <li>
+            Created a comprehensive stress testing framework to compare XAI vs. Non-XAI models against various patch and camouflage
+            attacks using the Meta SAM 2 model.
+          </li>
+          <li>
+            Optimized and deployed XAI models with custom post-inference processing on Nvidia Jetson Xavier Orin, utilizing TensorRT
+            acceleration, quantization, and model pruning for efficient edge inference.
+          </li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Automaton AI Infosystems Ltd</h3>
+        <p><strong>AI Solutions Architect | Oct 2021 – May 2023</strong> | Pune, India</p>
+        <ul>
+          <li>
+            Developed an end-to-end computer vision solution using Nvidia TensorRT, employing model quantization to accelerate
+            inference and boost process efficiency by 20-25% for a leading gas provider in India.
+          </li>
+          <li>
+            Led the development of a synthetic data generation pipeline using GANs, improving image resolution by 2x through techniques
+            such as Super-Resolution, Deblur, and DeHaze for the ADVIT™ Deep Learning Platform.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <ul>
+        <li>
+          <strong>High-Fidelity Worker Motion Simulation With Generative AI</strong> — Paper, Aug 2024
+        </li>
+        <li>
+          <strong>Semantic Image Segmentation of Kidney Histology Images Using U-Net</strong> — Paper, July 2023
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Robot Waypoint Planning with Vision-Language Models</h3>
+        <p>
+          <em>Technologies:</em> Python, OpenAI API, ROS2, NAV2<br />
+          <a href="https://github.com/atharvahude/nav2-vlm" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+      <div class="project">
+        <h3>Sensor Fusion - Vehicle Position Estimation</h3>
+        <p>
+          <em>Technologies:</em> C++, Point Cloud Library, Eigen<br />
+          <a href="https://github.com/atharvahude/Highway-Vehicle-State-Estimation" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+      <div class="project">
+        <h3>Autonomous Robotic Arm for Tic-Tac-Toe Gameplay</h3>
+        <p>
+          <em>Technologies:</e
