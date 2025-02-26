@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d87d0121.css",
-    "main.js": "/static/js/main.1f03a9f4.js",
+    "main.js": "/static/js/main.3f7e2e46.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.f33b0965.chunk.js": "/static/js/487.f33b0965.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -14,13 +14,11 @@
     "static/media/puneLogo.png": "/static/media/puneLogo.502ace5622b5ec1538f0.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.d87d0121.css.map": "/static/css/main.d87d0121.css.map",
-    "main.1f03a9f4.js.map": "/static/js/main.1f03a9f4.js.map",
+    "main.3f7e2e46.js.map": "/static/js/main.3f7e2e46.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.f33b0965.chunk.js.map": "/static/js/487.f33b0965.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -28,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.d87d0121.css",
-    "static/js/main.1f03a9f4.js"
+    "static/js/main.3f7e2e46.js"
   ]
 }
