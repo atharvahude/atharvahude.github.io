@@ -53,6 +53,7 @@
 }
 
 .experience-div-company {
+  // display: none;
   position: absolute;
   background: transparent;
   height: 9rem;
@@ -78,17 +79,18 @@
 }
 
 .experience-roundedimg {
-  position: absolute;
-  object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 7rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8rem;
-  height: 8rem;
-  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
+  display: none;
+  // position: absolute;
+  // object-fit: contain;
+  // left: 0;
+  // right: 0;
+  // top: 7rem;
+  // margin-left: auto;
+  // margin-right: auto;
+  // width: 8rem;
+  // height: 8rem;
+  // box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  // border-radius: 50%;
 }
 
 .experience-text-role {
