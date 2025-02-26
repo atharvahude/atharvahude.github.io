@@ -317,7 +317,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  achievementSection,
+  // achievementSection,
   blogSection,
   talkSection,
   podcastSection,
