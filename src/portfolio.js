@@ -20,14 +20,14 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Atharva Hude",
+  title: "Hi all, I'm Atharva",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "AI and Robotics Developer 🚀 | Experience in ML/DL, ROS, Sensor Fusion, Edge AI, and Explainable AI (XAI)."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1RUYixkfAdxIdzJQmY2VOjzrBt6FAUfaK/view?usp=sharing",
+  displayGreeting: true
 };
 
 // Social Media Links
