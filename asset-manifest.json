@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b1a65087.css",
-    "main.js": "/static/js/main.1c9ee250.js",
+    "main.js": "/static/js/main.0ba22a7a.js",
     "static/css/487.b3bf59fe.chunk.css": "/static/css/487.b3bf59fe.chunk.css",
     "static/js/487.f33b0965.chunk.js": "/static/js/487.f33b0965.chunk.js",
     "static/css/990.80886900.chunk.css": "/static/css/990.80886900.chunk.css",
     "static/js/990.d448d5ce.chunk.js": "/static/js/990.d448d5ce.chunk.js",
-    "static/media/sensorFusion.gif": "/static/media/sensorFusion.dcc47aaebf4368136851.gif",
-    "static/media/lidar.gif": "/static/media/lidar.f9e37a614399424a6c5f.gif",
     "static/media/robotWaypoint.png": "/static/media/robotWaypoint.59046c1abdd237f0c9f8.png",
+    "static/media/lidarCut.webp": "/static/media/lidarCut.6bbd50dfad26d265a01b.webp",
     "static/media/roboticArm.png": "/static/media/roboticArm.0147b13ab47536cb7fd5.png",
     "static/media/ttc-dataflow.png": "/static/media/ttc-dataflow.75964f8b9685d8f5a6a5.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/sensorFusionCut.webp": "/static/media/sensorFusionCut.103687997ed7f18642e0.webp",
     "static/media/resume.pdf": "/static/media/resume.02105e9f20f4d7b010ff.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/asuLogo.png": "/static/media/asuLogo.edca167015a26353019a.png",
@@ -21,7 +21,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.b1a65087.css.map": "/static/css/main.b1a65087.css.map",
-    "main.1c9ee250.js.map": "/static/js/main.1c9ee250.js.map",
+    "main.0ba22a7a.js.map": "/static/js/main.0ba22a7a.js.map",
     "487.b3bf59fe.chunk.css.map": "/static/css/487.b3bf59fe.chunk.css.map",
     "487.f33b0965.chunk.js.map": "/static/js/487.f33b0965.chunk.js.map",
     "990.80886900.chunk.css.map": "/static/css/990.80886900.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.b1a65087.css",
-    "static/js/main.1c9ee250.js"
+    "static/js/main.0ba22a7a.js"
   ]
 }
