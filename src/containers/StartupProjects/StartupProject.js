@@ -59,12 +59,11 @@ export default function StartupProject() {
                       {project.projectName}
                     </h5>
                     <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
-                    >
-                      {project.projectDesc}
-                    </p>
+  className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}
+  style={{ whiteSpace: "pre-line" }} // Add this style
+>
+  {project.projectDesc}
+</p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {

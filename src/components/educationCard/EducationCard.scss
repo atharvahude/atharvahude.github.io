@@ -78,6 +78,29 @@
   margin-top: 0.5rem;
 }
 
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); // Fixed 5 columns
+  row-gap: 10px; // Row gap remains
+  column-gap: 100px; // Increased horizontal gap for longer subject names
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.courses-grid li {
+  white-space: normal;         // Allow text to wrap naturally
+  word-break: normal;          // Prevent breaking words in the middle
+  text-align: left;             // Align text to the left
+  // padding: 2px 0;              // Add some vertical padding for separation
+  margin: 0;
+}
+.education-text-courses {
+  font-size: 20px;
+  // font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  // padding-inline: 10%;
+}
 /* Media Query */
 
 @media (max-width: 1380px) {

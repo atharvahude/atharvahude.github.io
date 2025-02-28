@@ -1,16 +1,20 @@
 @import "../../_globalColor";
 
 .dev-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; // Gives space between icons
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  font-size: 5rem;
+  margin: 0;
   text-align: center;
 }
 
 .software-skill-inline {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column; // Stack icon and text vertically
+  align-items: center; // Center the text below the icon
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -24,7 +28,7 @@
 }
 .software-skill-inline > p {
   color: $subTitle;
-  font-size: 10px;
+  font-size: 20px;
 }
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;

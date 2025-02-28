@@ -3,6 +3,7 @@
 .card-image {
   max-width: 100%;
   height: auto;
+  
   width: 250px;
 }
 .card-title {
@@ -40,8 +41,13 @@
   transition: all 0.25s ease;
 }
 
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 3 projects per row
+  gap: 1rem;
+}
 .project-detail {
-  text-align: center;
+  text-align: left;
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -51,18 +57,18 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 300px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
-}
+// .projects-container {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//   gap: 1rem 1rem;
+// }
 
 .project-card-footer span.project-tag {
   background: $buttonColor;

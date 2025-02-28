@@ -38,15 +38,10 @@ export default function EducationCard({school}) {
             <h5 className="education-text-school">{school.schoolName}</h5>
 
             <div className="education-text-details">
-              <h5
-                className={
-                  isDark
-                    ? "dark-mode education-text-subHeader"
-                    : "education-text-subHeader"
-                }
-              >
-                {school.subHeader}
-              </h5>
+            <h5
+  className={isDark ? "dark-mode education-text-subHeader" : "education-text-subHeader"}
+  dangerouslySetInnerHTML={{ __html: school.subHeader }}
+/>
               <p
                 className={`${
                   isDark ? "dark-mode" : ""
@@ -60,6 +55,24 @@ export default function EducationCard({school}) {
                   <GetDescBullets descBullets={school.descBullets} />
                 </ul>
               </div>
+              {school.courses && (
+                <>
+                  <h5
+                    className={
+                      isDark
+                        ? "dark-mode education-text-courses"
+                        : "education-text-courses"
+                    }
+                  >
+                    Courses / Curriculum
+                  </h5>
+                  <ul className="courses-grid">
+                    {school.courses.map((course, index) => (
+                      <li key={index}>{course}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
             </div>
           </div>
         </div>
