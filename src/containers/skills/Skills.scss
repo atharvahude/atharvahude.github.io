@@ -1,9 +1,8 @@
 @import "../../_globalColor";
-
 .skills-main-div {
   display: flex;
   width: 100%; /* Change width to 100vw */
-  height: 100vh; /* Add height to 100vh */
+  height: 70vh; /* Add height to 100vh */
   overflow: hidden;
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
@@ -14,12 +13,12 @@
   // text-align: center;
   margin: 0; /* Remove auto centering */
   text-align: left; /* Align text to the left */
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .skills-image-div > img {

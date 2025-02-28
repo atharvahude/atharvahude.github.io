@@ -87,6 +87,12 @@
   padding-left: 20px;
 }
 
+.education-card-container > div:nth-child(2) .courses-grid {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+}
+
+
 .courses-grid li {
   white-space: normal;         // Allow text to wrap naturally
   word-break: normal;          // Prevent breaking words in the middle
@@ -101,6 +107,10 @@
   margin-bottom: 0.5rem;
   // padding-inline: 10%;
 }
+
+
+
+
 /* Media Query */
 
 @media (max-width: 1380px) {

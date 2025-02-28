@@ -6,7 +6,7 @@
   gap: 30px; // Gives space between icons
   padding-left: 0;
   list-style: none;
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 0;
   text-align: center;
 }
@@ -32,4 +32,10 @@
 }
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
+}
+/* Add media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .dev-icons {
+    justify-content: center;
+  }
 }
